@@ -23,7 +23,7 @@ namespace Ejercicio3
             //Tangente
             Valor = Math.Tan(40);
             Console.WriteLine($"La tangente de 40:{Valor}");
-            //
+            //Funcion de Redondeo
             Valor = Math.Round(3.14159265358979323846,4);
             Console.WriteLine($"Redondea a cierta cantidad de decimales el numero:3.14159265358979323846 :{Valor}");
         }

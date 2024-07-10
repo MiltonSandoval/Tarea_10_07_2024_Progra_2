@@ -7,15 +7,17 @@ namespace Ejercicio2
     {
         static void Main(string[] args)
         {
+            //Definicion de las variables x,y como double
             double x, y;
             try
             {
                 Console.WriteLine("Programa para encontrar el numero mayor entre dos numeros");
+                // se reciben los dos numeros y se los almazena en x, y
                 Console.Write("Ingrese el primer numero:");
                 x = double.Parse(Console.ReadLine());
                 Console.Write("Ingrese el segundo numero:");
                 y = double.Parse(Console.ReadLine());
-
+                // se hace la comparacion y se imprime el numero mayor
                 if (x > y)
                     Console.WriteLine($"El numero mayor es: {x}");
                 else
@@ -28,6 +30,3 @@ namespace Ejercicio2
         }
     }
 }
-
-//Realice un programa que pida el nombre, la fecha de nacimiento, lo junte todo en una cadena separando //el nombre de la fecha por una coma ',' y la fecha por una barra diagonal '/'.
-//Crea un programa que pida al usuario dos numeros enteros y despues una operacion para realizar con ellos
